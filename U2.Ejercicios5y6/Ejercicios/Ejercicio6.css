@@ -1,0 +1,52 @@
+* {
+  font-family: "Times New Roman";
+}
+header h1 {
+  font-family: "Garamond";
+  color: blue;
+  font-size: 36px;
+}
+article h1 {
+  color: orange;
+  font-size: 18px;
+}
+article p:nth-child(even) {
+  background-color: yellow;
+}
+article p b {
+  color: red;
+  font-style: italic;
+}
+article p span#japo {
+  font-size: 24px;
+  color: magenta;
+}
+article p i {
+  color: green;
+  font-style: normal;
+  font-family: "Courier New";
+}
+span {
+  color: blue;
+}
+article p span.destacado {
+  font-weight: bold;
+}
+a:hover, a span:hover {
+  color: grey;
+  font-weight: bold;
+}
+article.imagen p {
+  font-family: "Times New Roman";
+  font-variant: small-caps;
+  font-style: italic;
+  color: red;
+}
+footer > span {
+  font-family: "Courier New";
+  font-style: italic;
+  color: red;
+}
+footer a, footer a span {
+  color: green;
+}
