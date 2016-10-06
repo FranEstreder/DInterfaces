@@ -1,0 +1,17 @@
+img {
+	float: left;
+	padding: 20px;
+}
+#paginacion{
+	position: absolute;
+	padding: 10px;
+	width: 95%;
+	bottom: 0px;
+	background-color: lightgrey;
+}
+.izquierda{
+	float: left;
+}
+.derecha{
+	float: right;
+}
