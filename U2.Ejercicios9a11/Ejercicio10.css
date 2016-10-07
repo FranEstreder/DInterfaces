@@ -1,0 +1,26 @@
+body{
+	background-image: url("http://www.fandroides.com/wp-content/uploads/2014/05/wall4.jpg");
+	background-size: cover;
+}
+#h1{
+	background-image: url("https://1.bp.blogspot.com/_sD9yQTE5QZQ/SGvRFJbT6QI/AAAAAAAADg4/5Ot2-aTA4_w/s400/blue1961.jpg");
+	background-repeat: repeat-x;
+	border-color: lightgreen;
+	color: white;
+}
+#pdf{
+	background: url("https://www.ecured.cu/images/6/6b/Pdf-icon.png") no-repeat left center;
+	background-size: 12px;
+	padding: 12px;
+	color: pink;
+}
+#button{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: yellow;
+	color: red;
+}
+#button:hover{
+	background-color: lightyellow;
+}

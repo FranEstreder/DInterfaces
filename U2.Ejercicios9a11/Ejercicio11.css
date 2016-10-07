@@ -1,0 +1,37 @@
+body{
+	font-style: italic;
+}
+table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+	text-align: center;
+	font-style: normal;
+	table-layout: auto;
+}
+/*Table layout sirve para que la propia tabla se ajuste al contenido de esta.
+Tiene dos posibles modos: auto (se auto ajusta al contenido) o fixed (la tabla está fija y no cambia aunque el contenido no quepa en ella)*/
+tr:nth-child(even){
+	background-color: lightgrey;
+}
+table *{
+	border: 2px solid black;
+}
+.css{
+	background: url("http://1.bp.blogspot.com/-1Ou9VU12EVk/UzEExPKgdLI/AAAAAAAAHo0/qaZ0lOZI6jw/s1600/css_logo.png") no-repeat left center;
+}
+.html{
+	background: url("http://www.fancyicons.com/free-icons/101/html5/png/256/logo_256.png") no-repeat left center;
+}
+.css, .html{
+	background-size: 50px 50px;
+	vertical-align: center;
+	padding-left: 55px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.css:active, .html:active {
+	background-color: #FFFF66;
+}
+td{
+	vertical-align: bottom;
+}
