@@ -1,6 +1,12 @@
 body{
 	font-style: italic;
 }
+#p1, #h1, #pdf{
+	font-style: normal;
+}
+#final{
+	color: black;
+}
 table{
 	border-spacing: 0px;
 	border-collapse: collapse;
@@ -13,8 +19,12 @@ Tiene dos posibles modos: auto (se auto ajusta al contenido) o fixed (la tabla e
 tr:nth-child(even){
 	background-color: lightgrey;
 }
+tr:nth-child(odd){
+	background-color: white;
+}
 table *{
 	border: 2px solid black;
+	color: black;
 }
 .css{
 	background: url("http://1.bp.blogspot.com/-1Ou9VU12EVk/UzEExPKgdLI/AAAAAAAAHo0/qaZ0lOZI6jw/s1600/css_logo.png") no-repeat left center;
