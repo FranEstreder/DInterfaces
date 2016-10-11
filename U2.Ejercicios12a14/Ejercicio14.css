@@ -1,0 +1,30 @@
+#nota{
+	border: 1px dashed black;
+	font-style: italic;
+}
+div{
+	margin: .4em 0;
+}
+div label{
+	width: 25%;
+	float: left;
+}
+[for="hombre"], [for="mujer"], [for="copyMensaje"], [for="notifi"] {
+	width: auto;
+	float: inherit;
+}
+input:focus, textarea:focus {
+	border-radius: 5px;
+	background-color: lightgray;
+	border-color: violet;
+}
+input, textarea {
+	border-radius: 5px;
+}
+textarea{
+	height: 40px;
+	overflow: scroll;
+}
+[type="password"] {
+	width: 10em;
+}
