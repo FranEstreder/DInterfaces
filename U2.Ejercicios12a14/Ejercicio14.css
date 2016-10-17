@@ -6,7 +6,7 @@ div{
 	margin: .4em 0;
 }
 div label{
-	width: 25%;
+	width: 15%;
 	float: left;
 }
 [for="hombre"], [for="mujer"], [for="copyMensaje"], [for="notifi"] {
