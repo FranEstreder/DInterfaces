@@ -119,6 +119,10 @@ header img{
 	display: table-cell;
 }
 
+nav{
+	margin-bottom: 20px;
+}
+
 aside{
 	background-color: lightgrey;
 	float: right;
@@ -176,6 +180,10 @@ article h2, article h1{
 
 footer{
 	width: 100%;
+}
+
+section{
+	margin-bottom: 20px;
 }
 
 footer p{
