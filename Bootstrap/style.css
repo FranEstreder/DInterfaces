@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0px;
+}
+
+#logo {
+    color: darkolivegreen;
+    font-weight: bolder;
+}
+
+header {
+    text-align: center;
+}
+
+.navbar-default {
+    background-color: lightgray;
+    border: none;
+}
+
+.navbar-nav {
+    color: black;
+    background-color: #969696;
+    text-align: center;
+}
+
+article div header {
+    color: black;
+    float: right;
+}
+
+article div {
+    background-color: #969696;
+    color: white;
+    border: 1px solid black;
+}
+article {
+    padding: 10px;
+}
+
+article div > p {
+    padding: 30px;
+}
+
+#calamares header p {
+    background-color: coral;
+    width: 100px; 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+#bravas header p {
+    background-color: gold;
+    width: 100px; 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+#tortilla header p {
+    background-color: red;
+    color: white; 
+    width: 100px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+}
