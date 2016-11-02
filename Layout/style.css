@@ -1,0 +1,192 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+nav{
+	width: 100%;
+	background-color: lightgrey;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav	ul li{
+	list-style: none;
+	padding: 10px;
+}
+
+.primero{
+	display: inline-block;
+}
+
+.primero:hover{
+	background-color: grey;
+	color: white;
+}
+
+.segundoI, .segundoCat1, .segundoCat2, .segundoCon{
+	display: none;
+	text-decoration: none;
+	color: black;
+}
+
+.segundoI > li:hover, .segundoCat1 > li:hover, .segundoCat2 > li:hover, .segundoCon > li:hover{
+	background-color: grey;
+	color: white;
+}
+
+.terceroI1, .terceroI2, .terceroCat11, .terceroCat12, .terceroCat21, .terceroCat22, .terceroCon1, .terceroCon2{
+	display: none;
+	color: black;
+}
+
+.primero:hover .segundoI, .primero:hover .segundoCat1, .primero:hover .segundoCat2, .primero:hover .segundoCon{
+	display: inline;
+	position: absolute;
+	margin: 5px;
+	top: 113px;
+	background-color: lightgrey;
+}
+
+.segundoI > li:hover .terceroI1, .segundoI > li:hover .terceroI2{
+	display: inline-block;
+	position: absolute;
+	margin: 10px;
+	background-color: lightgrey;
+	top: -5px;
+	left: 61px;
+}
+
+.segundoCat1 > li:hover .terceroCat11, .segundoCat1 > li:hover .terceroCat12{
+	display: inline-block;
+	position: absolute;
+	margin: 10px;
+	background-color: lightgrey;
+	top: -5px;
+	left: 102px;
+}
+
+.segundoCat2 > li:hover .terceroCat21, .segundoCat2 > li:hover .terceroCat22{
+	display: inline-block;
+	position: absolute;
+	margin: 10px;
+	background-color: lightgrey;
+	top: -5px;
+	left: 101px;
+
+}
+
+.segundoCon > li:hover .terceroCon1, .segundoCon > li:hover .terceroCon2{
+	display: inline-block;
+	position: absolute;
+	margin: 10px;
+	background-color: lightgrey;
+	top: -5px;
+	left: 84px;
+
+}
+
+header{
+	font-family: Arial;
+	width: 100%;
+	display: table;
+	background-color: lightblue;
+}
+
+header h1{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.comentarios{
+	text-align: right;
+	color: steelblue;
+}
+
+header img{
+	vertical-align: middle;
+	width: 160px;
+	height: 40px;
+	margin: 20px;
+	display: table-cell;
+}
+
+nav{
+	margin-bottom: 20px;
+}
+
+aside{
+	background-color: lightgrey;
+	float: right;
+	width: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+aside ul li{
+	list-style: none;
+}
+
+.aside2{
+	display: none;
+	background-color: lightgrey;
+}
+
+.aside1, .aside2{
+	font-weight: bold;
+}
+
+.aside1:hover > a{
+	background-color: grey;
+	color: white;
+}
+
+.aside1:hover .aside2{
+	margin: 10px;
+	position: absolute;
+	display: inline-block;
+	color: black;
+	right: 75px;
+	top: 137px;
+}
+
+section{
+	background-color: #FFEAD7;
+	width: 900px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid grey;
+	padding-top: 30px;
+}
+
+.publicado{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: grey;
+}
+
+article h2, article h1{
+	font-family: Arial;
+}
+
+footer{
+	width: 100%;
+}
+
+section{
+	margin-bottom: 20px;
+}
+
+footer p{
+	text-align: center;
+	margin: 15px;
+}
