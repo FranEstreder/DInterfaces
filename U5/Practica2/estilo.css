@@ -142,3 +142,7 @@ a:focus, a:hover {
   position: absolute;
   top: -5000px;
 }
+
+#preparacion{
+	text-align: justify;
+}

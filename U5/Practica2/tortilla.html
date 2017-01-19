@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Recetas de la Abuela</title>
+
+        <link rel="stylesheet" href="estilo.css">
+
+        <script type="text/javascript">
+
+            function visualiza(elId) {
+
+                //selecciona los div dentro de contenido
+                var losDiv = document.getElementById("contenido").getElementsByTagName("div");
+                //oculta los div seleccionados
+                for(var i = 0; i < losDiv.length; i++){
+                    losDiv[i].style.display = "none";
+                }
+                //muestra el div indicado
+                document.getElementById(elId).style.display = "block";
+                // cancela el evento normal del enlace (equivale a e.preventDefault());
+                return false;
+
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="titulo">
+            <div id="texto">
+                <h1>Recetas de la abuela</h1>
+                <p>Como en casa en ningún sitio!</p>
+            </div>
+            <div id="logo">
+                <a href="https://cookpad.com/es" target="_blank"><img src="logo.png" width="85" alt="Imagen del logo de la Abuela"></a>
+            </div>
+        </div>
+
+        <div id="navegacion">
+            <ul>
+    	       <li><a href="#presentacion" onclick="visualiza('presentacion');">Presentación</a></li>
+    	       <li><a href="#primeros" onclick="visualiza('primeros');">Primer plato</a></li>
+    	       <li><a href="#segundos" onclick="visualiza('segundos');">Segundo plato</a></li>
+    	       <li><a href="#postres" onclick="visualiza('postres');">Postre</a></li>
+            </ul>
+        </div>
+
+        <!-- Inicio de contenido -->
+        <div id="contenido">
+
+            <div id="ingredientes">
+                
+                <h2><strong>Ingredientes:</strong></h2>
+                <table>
+                    <tr>
+                        <th>Ingredientes</th>
+                        <th>Cantidad</th>
+                    </tr>
+                    <tr>
+                        <td>Patatas</td>
+                        <td>700 gramos</td>
+                    </tr>
+                    <tr>
+                        <td>Cebolla</td>
+                        <td>200 gramos</td>
+                    </tr>
+                    <tr>
+                        <td>Huevos</td>
+                        <td>6-7 grandes</td>
+                    </tr>
+                    <tr>
+                        <td>Aceite de oliva virgen</td>
+                    </tr>
+                    <tr>
+                        <td>Sal gorda</td>
+                    </tr>                    
+                </table>
+
+            </div>
+
+            <div id="preparacion">
+                
+                <h2><strong>Preparación:</strong></h2>
+                <p>
+                    Una de las recetas para hacer <strong>tortilla de patatas</strong> que más gusta a la mayoría es esta que se hace añadiendo cebolla a la misma. Se prepara de la misma forma que la tradicional y tiene un estupendo sabor, así que si nunca la has preparado, te mostramos paso a paso como hacerla en casa de forma sencilla.
+                    <br><br>
+                    Como siempre, vamos a pelar y lavar las patatas y a cortarlas en daditos, en rodajas o como más nos guste. Pelamos y cortamos también la cebolla, en tiras o en trocos, cada cual a su gusto. En una sartén amplia ponemos a calentar abundante aceite de oliva virgen, y cuando esté caliente, vamos a freír tanto las patatas como las cebollas. Si has cortado las cebollas más bien pequeñas, te recomendamos que eches primero las patatas, y un poco después la cebolla, para evitar que se quemen.
+                    <br><br>
+                    Mientras se fríen bien las patatas por todos lados, junto a la cebolla, vamos a batir los huevos en un bol, y les añadimos un puñado de sal, al gusto de cada uno. Una vez saquemos de la sartén los ingredientes fritos, dejamos escurrir bien el aceite sobrante y los añadimos sobre el huevo batido. Removemos todo para que se vayan mezclando y así la patata vaya absorbiendo un poco el huevo. 
+                    <br><br>
+                    Vamos a usar una sartén de unos 24 centímetros de diámetro para hacer la <strong>tortilla</strong>, pero usa la que prefieras, pero ten en cuenta que si es más pequeña, más alta te saldrá la tortilla al final, y puede quedar cruda. Pon la sartén a fuego medio y échale un chorrito de aceite de oliva, y cuando coja temperatura échale encima el huevo mezclado con las patatas y cebollas. Déjalo así hasta que la capa de abajo se cuaje, pero sin llegar a quemarse. 
+                    <br><br>
+                    Con la ayuda de un plato llano amplio o un girador de <strong>tortillas</strong>, vamos a darle la vuelta a la <strong>tortilla</strong>, con cuidado que no se pegue en la sartén, para lo que es interesante despegarla antes con una pala de cocina. Cuando le des la vuelta, deja que se haga por el otro lado antes de sacarla, y si es necesario, dale las vueltas que necesites para dejarla en el punto que más te guste, poco hecha o bien hecha. Y a disfrutar de esta estupenda receta. 
+                </p>
+
+            </div>
+
+        </div>
+
+        <div id="lateral">
+            <h3>Síguenos</h3>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+            <h3>Webs amigas</h3>
+            <ul>
+                <li><a href="#">El cocinillas</a></li>
+                <li><a href="#">Cocina para dummys</a></li>
+                <li><a href="#">Recetas en 4 min</a></li>
+            </ul>
+        </div>
+
+        <div id="pie">
+            <ul>
+                <!-- Aquí van los iconos de accesibilidad y la explicación sobre accesibilidad -->
+                <a href="http://www.w3.org/WAI/WCAG2AA-Conformance" title="Explicación de WCAG 2.0 Nivel Doble-A de Conformidad">
+                    <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AA-blue" alt="Nivel Doble-A de Conformidad, W3C WAI Pautas de Accesibilidad para el Contenido Web 2.0">
+                </a>
+            </ul>
+        </div>
+
+    </body>
+
+</html>
